@@ -1,0 +1,39 @@
+.height {
+  min-height: 100vh;
+  /* xreiaszome to min height gia na exo ena simio anaforas gia na kano align ta pragmata mesa sto row */
+}
+.title-underline {
+  width: 100px;
+  height: 5px;
+  margin: 0 auto;
+  /* to 0 einai gia deksia kai aristera kai to auto einai gia pano kano opote tin evala sto kedro */
+  /* background: blue!important;
+  an thelo na kano overide to xroma pou exo valei me to bg-dander, i apla vgazo to bg-danger kai vazo oti xroma thelo */
+}
+.height-80 {
+  min-height: 80vh;
+}
+.about-picture {
+  background: url(../img/customer-0.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* to background-attachment fixed eiani pou kanei to paralex effect */
+}
+/* thelo na kano target olo to section me id filler */
+#filler,
+#progress {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/customer-3.jpg);
+  /* me to linear-gradient kano tin oikona pio skotini */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+/* evala kai to progress section na exi background tin oikona */
+
+  
