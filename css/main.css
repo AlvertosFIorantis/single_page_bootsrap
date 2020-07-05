@@ -5,7 +5,8 @@
 .title-underline {
   width: 100px;
   height: 5px;
-  margin: 0 auto;
+
+  margin: 20px auto 20px auto;
   /* to 0 einai gia deksia kai aristera kai to auto einai gia pano kano opote tin evala sto kedro */
   /* background: blue!important;
   an thelo na kano overide to xroma pou exo valei me to bg-dander, i apla vgazo to bg-danger kai vazo oti xroma thelo */
@@ -33,7 +34,177 @@
   background-attachment: fixed;
 }
 
-
 /* evala kai to progress section na exi background tin oikona */
 
-  
+/* sinergates card */
+/* afto to div einai to paralilogramo pou exo olo to contnet mesa */
+.login-div {
+  /* width: 430px; */
+  width: 100%;
+  /* height: 750px; */
+  height: 85vh;
+  /* padding: 20px 35px 35px 35px; */
+  /* to border radius kanei tis goneis kiklikes */
+  /* border-radius: 40px; */
+  /* background: #ecf0f3; */
+  /* me to box shadow kano fovero 3d efffect */
+  /* box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #ffffff; */
+  margin: 0 10px 0 10px;
+  /*  use box-shadow to create a light effect. Add dark shadow at the bottom right side. Then add bright color shadow at the top left side. This will make the element looks like it has the light source illuminating from the top left corner of the screen. */
+}
+
+/* afto einai gia to logo dne to xriazome se afto pou kano giati den exo oikona ala boro na do poso oreo eaini to kikliko pop up ou exo isios kano kai paromio gia to pos kano previou ti fotgrafia pou anevasa */
+.logo {
+  /* background: url('Logo.png'); */
+  width: 150px;
+  height: 150px;
+  /* border radius gia na to kano kiklo */
+  border-radius: 50%;
+  /* gia na to valo sto kedro os pros ton orizodio aksona */
+  margin: 0 auto;
+  box-shadow: 
+  /* logo shadow */ 0px 0px 2px #5f5f5f,
+    /* offset */ 0px 0px 0px 5px #ecf0f3, /*bottom right */ 8px 8px 15px #a7aaaf,
+    /* top left */ -8px -8px 15px #ffffff;
+}
+.logo_image_1 {
+  background: url('../img//kolivakis.png');
+  background-size: contain;
+}
+
+.logo_image_2 {
+  background: url('../img//baziotopoulos.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logo_image_3 {
+  background: url('../img//liva.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* css gia to text mesa sto form den afora ta input fields ara den to xriazome einai gia ola ta ala text pou exo mesa sto form */
+.title {
+  text-align: center;
+  font-size: 28px;
+  padding-top: 24px;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+.sub-title {
+  text-align: center;
+  font-size: 15px;
+  padding-top: 7px;
+  letter-spacing: 3px;
+}
+
+.main_descirption {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* gia to container pou exo tous sinergates */
+#sinergates .container {
+  max-width: 100%;
+}
+
+/* rotate card */
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  padding: 20px 35px 35px 35px;
+  /* to border radius kanei tis goneis kiklikes */
+  border-radius: 40px;
+  background: #ecf0f3;
+  /* me to box shadow kano fovero 3d efffect */
+  box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #ffffff;
+}
+
+/* .login-div:hover .card-inner {
+  transform: rotateY(180deg);
+} */
+
+.inner-card-content {
+  display: flex;
+  min-height: 60%;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-around;
+  /* font-size: 15px; */
+}
+
+.card-back {
+  transform: rotateY(180deg);
+}
+
+.button-container {
+  display: flex;
+  width: 100%;
+  height: 10%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  position: absolute;
+  bottom: 15px;
+  left: 0px;
+}
+
+.sinergates-button-greek {
+  height: 50px;
+  width: 100px;
+  background: url('../img//greek.png');
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  border-radius: 15px;
+}
+
+.sinergates-button-uk {
+  height: 50px;
+  width: 100px;
+  background: url('../img//uk.png');
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  border-radius: 15px;
+}
+
+.rotate-sinergates {
+  transform: rotateY(180deg);
+}
+
+/* change font side so the card can feed in small screens */
+
+@media (max-width: 1200px) {
+  .card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    font-size: 14px;
+  }
+
+  .title-underline-sinergates {
+    width: 80%;
+    height: 2px;
+
+    margin: 10px auto 10px auto;
+  }
+}
+
+.title-underline-sinergates {
+  width: 80%;
+  height: 2px;
+
+  margin: 20px auto 20px auto;
+}

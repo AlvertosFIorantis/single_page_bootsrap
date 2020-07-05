@@ -1,11 +1,9 @@
 .navbar {
-  background: rgb(47,79,79) !important;
+  background: rgb(47, 79, 79) !important;
   border: 0 !important;
   font-size: 20px !important;
-  
-  
 }
-.navbar .container{
+.navbar .container {
   max-width: 80%;
 }
 button span {
@@ -22,18 +20,21 @@ button span {
   font-family: sans-serif !important;
 }
 
-.nav-link{
+.nav-link {
   /* color: rgb(243, 247, 133) !important; */
-  color: rgb(5, 160, 129)  !important;
+  color: rgb(5, 160, 129) !important;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 20px;
 }
 
 .nav-link:hover {
   color: #fff !important;
 }
 
-.nav_button{
-  color: #fff!important;
-  border:#fff  !important
+.nav_button {
+  color: #fff !important;
+  border: #fff !important;
 }
 
 .btn-primary {
@@ -55,17 +56,17 @@ button span {
   /* change colour of button when hover */
 }
 
-.btn-outline-primary{
-  color: rgb(47,79,79) !important;
-  border:rgb(5, 160, 129)  !important
+.btn-outline-primary {
+  color: rgb(47, 79, 79) !important;
+  border: rgb(5, 160, 129) !important;
 }
 
-.btn-outline-primary:hover{
-  color: #fff  !important;
-  background-color:rgb(5, 160, 129)  !important
+.btn-outline-primary:hover {
+  color: #fff !important;
+  background-color: rgb(5, 160, 129) !important;
 }
 
-#header{
+#header {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../img/arxiki.jpg);
   /* background-image: url(../img/agrrement.jpeg); */
@@ -75,11 +76,9 @@ button span {
   background-attachment: fixed;
   /* goa paralax effect */
   color: #fff;
-  
-  
 }
-#contact{
-  background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)),
+#contact {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     url(../img/contact_form.jpg);
   /* background-image: url(../img/agrrement.jpeg); */
   background-repeat: no-repeat;
@@ -88,24 +87,20 @@ button span {
   background-attachment: fixed;
   /* goa paralax effect */
   color: #fff;
-  
-  
 }
 
-
-
-#underilien_skills{
-  background: rgb(47,79,79) !important;
+#underilien_skills {
+  background: rgb(47, 79, 79) !important;
 }
 
-#ipiresies .card-header{
-  background-color: rgb(47,79,79) !important;
+#ipiresies .card-header {
+  background-color: rgb(47, 79, 79) !important;
 }
-#ipiresies .card-footer{
-  background-color:#fff !important;
+#ipiresies .card-footer {
+  background-color: #fff !important;
 }
-#ipiresies .card{
-  border-color: rgb(47,79,79) !important;
+#ipiresies .card {
+  border-color: rgb(47, 79, 79) !important;
 }
 /* #arthra .card {
   min-height: 500px;
@@ -119,7 +114,7 @@ button span {
 }
 /* ola ta arthra to idio megethos ikonas! */
 
-#arthra .card-body{
+#arthra .card-body {
   width: 100%;
   height: 5vw;
 }
@@ -129,7 +124,7 @@ button span {
 }
 
 .about-img__container::before {
-  content: "";
+  content: '';
   position: absolute;
   top: -0.5rem;
   left: -0.7rem;
@@ -145,13 +140,6 @@ button span {
 }
 
 /*end of  about */
-
-
-
-
-
-
-
 
 .section1 {
   background: #514f4f;
@@ -188,9 +176,8 @@ button span {
   background-repeat: no-repeat;
 }
 
-
 .slide3 {
-  background-color:#514f4f;
+  background-color: #514f4f;
 }
 
 .slide-content {
@@ -329,3 +316,34 @@ button span {
 }
 
 /* TESTS!!!!! */
+.my_row {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-around;
+}
+
+.my_column {
+  flex: 50%;
+}
+
+/* .my_class {
+  padding: 10px;
+  box-shadow: 10px 8px rgba(33, 34, 33, 0.2);
+  z-index: 100;
+} */
+
+/* video */
+.responsive {
+  width: 100%;
+  height: 0px;
+  padding-bottom: 56.2%;
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.responsive iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
