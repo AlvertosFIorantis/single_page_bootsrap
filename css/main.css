@@ -200,6 +200,28 @@
 
     margin: 10px auto 10px auto;
   }
+
+  .logo {
+    /* background: url('Logo.png'); */
+    width: 90px;
+    height: 90px;
+    /* border radius gia na to kano kiklo */
+    border-radius: 50%;
+    /* gia na to valo sto kedro os pros ton orizodio aksona */
+    margin: 0 auto;
+    box-shadow: 
+  /* logo shadow */ 0px 0px 2px #5f5f5f,
+      /* offset */ 0px 0px 0px 5px #ecf0f3,
+      /*bottom right */ 8px 8px 15px #a7aaaf,
+      /* top left */ -8px -8px 15px #ffffff;
+  }
+  .title {
+    text-align: center;
+    font-size: 19px;
+    padding-top: 24px;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+  }
 }
 
 .title-underline-sinergates {
@@ -209,7 +231,7 @@
   margin: 20px auto 20px auto;
 }
 
-@media screen and (max-height: 800px) and (min-width: 1250px) {
+@media screen and (max-height: 900px) {
   .card-inner {
     position: relative;
     width: 100%;
@@ -247,6 +269,18 @@
     padding-top: 24px;
     letter-spacing: 0.5px;
     margin-bottom: 10px;
+  }
+
+  .button-container {
+    display: flex;
+    width: 100%;
+    height: 5%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    position: absolute;
+    bottom: 15px;
+    left: 0px;
   }
 }
 
