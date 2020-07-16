@@ -282,6 +282,38 @@
     bottom: 15px;
     left: 0px;
   }
+  /* afto to div einai to paralilogramo pou exo olo to contnet mesa */
+  .login-div {
+    /* width: 430px; */
+    width: 100%;
+    /* height: 750px; */
+    height: 90vh;
+    /* padding: 20px 35px 35px 35px; */
+    /* to border radius kanei tis goneis kiklikes */
+    /* border-radius: 40px; */
+    /* background: #ecf0f3; */
+    /* me to box shadow kano fovero 3d efffect */
+    /* box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #ffffff; */
+    margin: 0 10px 0 10px;
+    /*  use box-shadow to create a light effect. Add dark shadow at the bottom right side. Then add bright color shadow at the top left side. This will make the element looks like it has the light source illuminating from the top left corner of the screen. */
+  }
+  .sinergates-button-greek {
+    height: 40px;
+    width: 80px;
+    background: url('../img//greek.png');
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    border-radius: 15px;
+  }
+
+  .sinergates-button-uk {
+    height: 40px;
+    width: 80px;
+    background: url('../img//uk.png');
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    border-radius: 15px;
+  }
 }
 
 .title-underline-sinergates {
